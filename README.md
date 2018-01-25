@@ -1,13 +1,11 @@
-# naivechain
-Naivechain - a blockchain implementation in 200 lines of code.
+# medicalchain
 
 ### Quick start
-```
-git clone https://github.com/sunysen/naivechain.git
-cd naivechain
+
+cd medicalchain
 mvn clean install
-java -jar naivechain.jar 8080 7001
-java -jar naivechain.jar 8081 7002 ws://localhost:7001
+java -jar medicalchain.jar 8080 7001
+java -jar medicalchain.jar 8081 7002 ws://localhost:7001
 
 ```
 
